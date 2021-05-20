@@ -21,8 +21,6 @@ API to manage rankings, challenges and matches between players using the microse
     <img src="https://i.ibb.co/CzMLhCH/Captura-de-Tela-2021-05-19-a-s-23-13-02.png" alt="Logo">
   </a>
 
-  <h3 align="center">SmartRanking - An microservice api methodology for challenges management </h3>
-
   <p align="center">
     ·
     <a href="https://github.com/AlissonAp/smartranking-cloud-microservices-learning/issues">Report Bug</a>
