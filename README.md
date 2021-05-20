@@ -41,29 +41,6 @@ API to manage rankings, challenges and matches between tênis players using the 
   </p>
 </p>
 
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Todos</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -83,6 +60,26 @@ The project contains 4 microservices and one api-gateway to handle the http requ
 <br />
 <p align="center">
     <img src="api-gateway/requirements/diagrams/categories_endpoints.png" alt="Logo">
+</p>
+
+<br />
+<p align="center">
+    <img src="api-gateway/requirements/diagrams/players_endpoints.png" alt="Logo">
+</p>
+
+<br />
+<p align="center">
+    <img src="api-gateway/requirements/diagrams/challenges_endpoints.png" alt="Logo">
+</p>
+
+<br />
+<p align="center">
+    <img src="api-gateway/requirements/diagrams/rankings_endpoints.png" alt="Logo">
+</p>
+
+<br />
+<p align="center">
+    <img src="api-gateway/requirements/diagrams/authentication_endpoints.png" alt="Logo">
 </p>
 
 
@@ -124,25 +121,14 @@ To make changes to the project first have node, npm and nestjs installed and doc
 
 To make requests to the available endpoints, run the api-gateway microservice and go to `localhost:3000/api/v1/documentation`
 
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
 
 <!-- LICENSE -->
 ## License
