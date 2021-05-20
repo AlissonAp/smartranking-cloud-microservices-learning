@@ -75,7 +75,7 @@ The project contains 4 microservices and one api-gateway to handle the http requ
 
 <br />
 <p align="center">
-    <img src="api-gateway/requirements/diagrams/Application domain.png" alt="Logo">
+    <img src="api-gateway/requirements/diagrams/application_domain.png" alt="Logo">
 </p>
 
 
