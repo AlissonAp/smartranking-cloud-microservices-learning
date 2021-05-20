@@ -118,6 +118,14 @@ To make requests to the available endpoints, run the api-gateway microservice an
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Todo List
+
+- [ ] Add unit tests
+- [ ] Add contract tests
+- [ ] Add support for circuit break
+- [ ] Use gRPC communication
+- [ ] Add saga orchestration data pattern
+
 <!-- LICENSE -->
 ## License
 
