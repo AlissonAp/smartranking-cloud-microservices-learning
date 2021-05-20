@@ -1,0 +1,15 @@
+version: "3"
+services:
+    mongodb_container:
+        image: mongo:latest
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: micro-challenge
+            MONGO_INITDB_ROOT_PASSWORD: rootMicroChallenge
+        command: mongod --port 27018
+        ports:
+            - 27018:27018
+        volumes:
+            - mongodb_data_micro_challenges:/data/db
+volumes:
+    rabbitmq_data:
+    mongodb_data_micro_challenges:
