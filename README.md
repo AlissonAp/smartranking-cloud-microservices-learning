@@ -1,14 +1,5 @@
-# smartranking-cloud-microservices-learning
+# SmartRanking - An API that implements the concept of microservices with nestjs, rabbitmq and typescript in a clean architecture to simulate a challenges management.
 API to manage rankings, challenges and matches between tênis players using the microservices methodology with nestjs, rabbitmq, mongodb, aws ses, s3 and cognito
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -22,7 +13,6 @@ API to manage rankings, challenges and matches between tênis players using the 
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 <!-- PROJECT LOGO -->
 <br />
