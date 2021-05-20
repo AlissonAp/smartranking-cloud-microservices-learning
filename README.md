@@ -78,6 +78,13 @@ The project contains 4 microservices and one api-gateway to handle the http requ
     <img src="api-gateway/requirements/diagrams/application_domain.png" alt="Logo">
 </p>
 
+## Available endpoints
+
+<br />
+<p align="center">
+    <img src="api-gateway/requirements/diagrams/categories_endpoints.png" alt="Logo">
+</p>
+
 
 ### Built With
 
@@ -106,7 +113,7 @@ To make changes to the project first have node, npm and nestjs installed and doc
    ```
 3. Run Docker Compose for every micro-service that have `docker-compose.yaml`
    ```sh
-   docker-compose up -d;
+   docker-compose up -d
    ```
 4. Run the microservice app in dev environment
    ```sh
@@ -115,8 +122,7 @@ To make changes to the project first have node, npm and nestjs installed and doc
 
 ## Usage
 
-To check the available endpoints, run the api-gateway microservice and go to `localhost:3000/api/v1/documentation`
-
+To make requests to the available endpoints, run the api-gateway microservice and go to `localhost:3000/api/v1/documentation`
 
 <!-- ROADMAP -->
 ## Roadmap
